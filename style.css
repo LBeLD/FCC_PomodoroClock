@@ -1,0 +1,154 @@
+body {
+  background: #0575E6;
+  background: -webkit-linear-gradient(to right, #021B79, #0575E6);
+  background: linear-gradient(to right, #021B79, #0575E6);
+  color: #ffffff;
+  font-family: 'Orbitron', sans-serif;
+}
+
+#title {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color:inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+#header {
+  margin: 40px auto;
+  text-align: center;
+}
+
+#break {
+  width: 150px;
+  float: left;
+  margin-left: 20%;
+}
+
+#session {
+  width: 150px;
+  float: right;
+  margin-right: 20%;
+
+}
+
+#minusBreak, #plusBreak {
+  color: #ffffff;
+  border-radius: 50%;
+  background-color: rgba(252, 255, 252, 0);
+  border: 2px solid #ffffff;
+  text-align: center;
+}
+#minusSession, #plusSession {
+  color: #ffffff;
+  border-radius: 50%;
+  background-color: rgba(252, 255, 252, 0);
+  border: 2px solid #ffffff;
+
+
+}
+
+p:nth-child(2) {
+  font-size: 25px;
+  margin: 8px auto 2px auto;
+}
+
+#action {
+  text-align: center;
+  width: 300px;
+  height: 300px;
+  margin: 20px auto;
+  border-radius: 50%;
+  border: solid 5px;
+}
+
+#action h1 {
+  display: block;
+  margin-top: 60px;
+  margin-bottom: 50px;
+  color:#ffffff;
+}
+
+#action span {
+  color:#ffffff;
+  font-size: 55px;
+  text-align: center;
+
+}
+
+#commandLine {
+  text-align: center;
+}
+
+#start, #reset {
+  color: #ffffff;
+  padding: 1px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50% !important;
+  background-color: rgba(252, 255, 252, 0);
+  border: 2px solid #ffffff;
+  margin: 10px;
+}
+
+#stop, #reset {
+  display: none;
+}
+
+.toggleClassSession{
+  border-color: #00fc03 !important;
+}
+
+.toggleClassBreak {
+  border-color: #ff7d05 !important;
+}
+
+footer{
+  margin-top: 20px;
+}
+
+/* Media Queries  */
+@media (min-width: 300px) and (max-width: 500px) {
+    #break {
+        margin-left: 3%;
+    }
+
+    #session {
+        margin-right: 3%;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 920px) {
+    #break {
+        margin-left: 10%;
+    }
+
+    #session {
+        margin-right: 10%;
+    }
+}
+@media (min-width: 920px){
+    #break {
+        margin-left: 30%;
+    }
+
+    #session {
+        margin-right: 30%;
+    }
+}
